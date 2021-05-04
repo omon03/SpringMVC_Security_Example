@@ -17,8 +17,6 @@ public class UserDaoImpl implements UserDao {
         if (!userMap.containsKey(name)) {
             return null;
         }
-
         return userMap.get(name);
     }
 }
-
